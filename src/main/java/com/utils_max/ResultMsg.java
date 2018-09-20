@@ -1,8 +1,12 @@
 package com.utils_max;
 
+import java.io.Serializable;
+
 import com.utils_max.enums.ResultStatusEnums;
 
-public class ResultMsg {
+public class ResultMsg implements Serializable{
+
+	private static final long serialVersionUID = 1L;
 	
 	private ResultStatusEnums status;
 	private String msg;
