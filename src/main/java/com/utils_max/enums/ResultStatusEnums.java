@@ -2,20 +2,28 @@ package com.utils_max.enums;
 
 public enum ResultStatusEnums {
 	/**
-	 * 参数错误
-	 */
-	param_error,
-	/**
 	 * 成功
 	 */
 	success,
 	/**
-	 * 系统错误
-	 */
-	system_error,
-	/**
 	 * 通用错误
 	 */
-	error
+	error,
+	/**
+	 * 参数错误
+	 */
+	error_param,
+	/**
+	 * 系统错误
+	 */
+	error_system,
+	/**
+	 * 用户登陆失败
+	 */
+	login_expired,
+	/**
+	 * 登录失败
+	 */
+	login_error
 	
 }
