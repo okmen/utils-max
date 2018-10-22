@@ -42,5 +42,4 @@ public class ConfigUtil {
 			return bundle.getString(key);
 		return null;
 	}
-	
 }
