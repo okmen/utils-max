@@ -1,7 +1,11 @@
 package com.utils_max.encrypt;
 
 import java.io.*;
-
+/**
+ * base64编码utils
+ * @author zhangyao
+ *
+ */
 public class Base64Utils {
 	
 	private static char[] alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=".toCharArray();
