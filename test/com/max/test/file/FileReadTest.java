@@ -1,4 +1,4 @@
-package com.max.test;
+package com.max.test.file;
 
 import com.utils_max.file.FileReadUtils;
 import com.utils_max.file.bo.FileMetaRead;
