@@ -17,7 +17,7 @@ public class ThreadModTest {
         });
         //每10秒执行一次
         sync.scheduleWithFixedDelay(new TestThread1(), 0, 10, TimeUnit.SECONDS);
-        //只执行一次
+        //延迟运行（只执行一次） 可以是call
         sync.schedule(new TestThread2(), 2, TimeUnit.SECONDS);
     }
 
