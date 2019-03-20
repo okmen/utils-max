@@ -2,9 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a8053b1-5e1c-4b77-afa1-dae36035516d" name="Default" comment="FileChannel 文件读写">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/utils_max/file/FileReadUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utils_max/file/FileReadUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/utils_max/file/FileWriteUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utils_max/file/FileWriteUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utils_max/ConfigUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/com/utils_max/ConfigUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utils_max/DateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/com/utils_max/DateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utils_max/HttpRequestHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/com/utils_max/HttpRequestHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utils_max/JsonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/com/utils_max/JsonUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utils_max/ParseUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/com/utils_max/ParseUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utils_max/PropertyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/com/utils_max/PropertyFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utils_max/QRCodeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/com/utils_max/QRCodeUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utils_max/ResultMsg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/com/utils_max/ResultMsg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utils_max/decoder/ByteDecoderUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/com/utils_max/decoder/ByteDecoderUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utils_max/decoder/ResponsePosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/com/utils_max/decoder/ResponsePosition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utils_max/encrypt/Base64Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/com/utils_max/encrypt/Base64Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utils_max/encrypt/MD5Encrypt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/com/utils_max/encrypt/MD5Encrypt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utils_max/encrypt/Sha1Encrypt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/com/utils_max/encrypt/Sha1Encrypt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utils_max/enums/ResultStatusEnums.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/com/utils_max/enums/ResultStatusEnums.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utils_max/file/FileReadUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/com/utils_max/file/FileReadUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utils_max/file/FileWriteUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/com/utils_max/file/FileWriteUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utils_max/file/bo/FileMetaRead.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/com/utils_max/file/bo/FileMetaRead.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utils_max/file/bo/FileMetaWrite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/com/utils_max/file/bo/FileMetaWrite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utils_max/logistics/Kd100Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/com/utils_max/logistics/Kd100Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utils_max/qiniu/FileUploadUtils_qiniu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/com/utils_max/qiniu/FileUploadUtils_qiniu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utils_max/redis/RedisUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/com/utils_max/redis/RedisUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utils_max/redis/SerializeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/com/utils_max/redis/SerializeUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utils_max/sms/SendSMSByMobile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/com/utils_max/sms/SendSMSByMobile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utils_max/wechat/AccessTokenUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/com/utils_max/wechat/AccessTokenUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utils_max/wechat/WxUserInfoUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/com/utils_max/wechat/WxUserInfoUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utils_max/wechat/WxUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/com/utils_max/wechat/WxUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utils_max/wechat/vo/WxUserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/com/utils_max/wechat/vo/WxUserInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/utils_max/AppTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/utils-max.iml" beforeDir="false" afterPath="$PROJECT_DIR$/utils-max.iml" afterDir="false" />
     </list>
     <ignored path="utils-max.iws" />
@@ -25,12 +52,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/utils_max/file/FileReadUtils.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/com/utils_max/file/FileReadUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+            <state relative-caret-position="368">
+              <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#459#481#0" expanded="true" />
               </folding>
             </state>
@@ -38,10 +66,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/utils_max/file/bo/FileMetaRead.java">
+        <entry file="file://$PROJECT_DIR$/src/java/com/utils_max/file/bo/FileMetaRead.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="85" column="5" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
+            <state>
+              <caret column="35" selection-start-column="35" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/java/com/utils_max/decoder/ByteDecoderUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -74,6 +114,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/utils_max/decoder/ByteDecoderUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/utils_max/file/FileWriteUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/utils_max/file/FileReadUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/utils_max/file/bo/FileMetaRead.java" />
+        <option value="$PROJECT_DIR$/src/java/com/utils_max/decoder/ByteDecoderUtil.java" />
       </list>
     </option>
   </component>
@@ -124,6 +166,12 @@
               <item name="utils-max" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="utils-max" type="b2602c69:ProjectViewProjectNode" />
+              <item name="utils-max" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="utils_max" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -141,7 +189,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553063715917" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553066102172" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -308,7 +356,7 @@
       <workItem from="1552443754600" duration="1660000" />
       <workItem from="1552535277293" duration="584000" />
       <workItem from="1552989054247" duration="596000" />
-      <workItem from="1553063019003" duration="692000" />
+      <workItem from="1553063019003" duration="3060000" />
     </task>
     <task id="LOCAL-00001" summary="FileChannel 文件读写">
       <created>1548985988580</created>
@@ -324,17 +372,23 @@
       <option name="project" value="LOCAL" />
       <updated>1551766717736</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="FileChannel 文件读写">
+      <created>1553063786647</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1553063786648</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23132000" />
+    <option name="totallyTimeSpent" value="25500000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18603411" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18603411" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="UI Designer" order="3" />
@@ -351,7 +405,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="IDEtalk Messages" order="8" />
       <window_info anchor="bottom" id="Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.31236443" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.31236443" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Application Servers" order="12" />
       <window_info anchor="bottom" id="Messages" order="13" />
@@ -397,27 +451,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/utils_max/file/bo/FileMetaWrite.java">
+    <entry file="file://$PROJECT_DIR$/src/java/com/utils_max/file/bo/FileMetaWrite.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/utils_max/file/FileWriteUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/java/com/utils_max/file/FileWriteUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1196">
           <caret line="59" column="17" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/utils_max/decoder/ByteDecoderUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="24" column="52" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -428,21 +472,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/utils_max/enums/ResultStatusEnums.java">
+    <entry file="file://$PROJECT_DIR$/src/java/com/utils_max/enums/ResultStatusEnums.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/utils_max/decoder/ResponsePosition.java">
+    <entry file="file://$PROJECT_DIR$/src/java/com/utils_max/decoder/ResponsePosition.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
           <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/utils_max/ResultMsg.java">
+    <entry file="file://$PROJECT_DIR$/src/java/com/utils_max/ResultMsg.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
@@ -456,19 +500,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/utils_max/file/bo/FileMetaRead.java">
+    <entry file="jar://D:/Program Files/Java/jdk1.8/src.zip!/java/io/File.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="85" column="5" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
+        <state relative-caret-position="201">
+          <caret line="274" column="11" selection-start-line="274" selection-start-column="11" selection-end-line="274" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/utils_max/file/FileReadUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/java/com/utils_max/file/bo/FileMetaRead.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+        <state>
+          <caret column="35" selection-start-column="35" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/utils_max/file/FileReadUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#459#481#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/utils_max/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/utils_max/decoder/ByteDecoderUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
