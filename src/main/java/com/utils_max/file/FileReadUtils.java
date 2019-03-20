@@ -20,8 +20,7 @@ public class FileReadUtils {
 
     private static final int LENGTH_READ = 1024;
 
-    public static FileMetaRead readFile(String fileNameFull, long offset,
-                                        int readLength) throws IOException {
+    public static FileMetaRead readFile(String fileNameFull, long offset, int readLength) throws IOException {
 
         FileMetaRead readMeta = getFileMeta(fileNameFull);
         if (readMeta.getCurrentFile() == null
@@ -55,17 +54,9 @@ public class FileReadUtils {
         if (meta != null) {
             return meta;
         }
-        try {
-            mapLock.lock();
-            File file = new File(fileName);
-            meta = new FileMetaRead(file);
-            mapReadFileMeta.put(fileName, meta);
-            return meta;
-        } catch (Exception e) {
-            // TODO
-        } finally {
-            mapLock.unlock();
-        }
+        File file = new File(fileName);
+        meta = new FileMetaRead(file);
+        mapReadFileMeta.putIfAbsent(fileName, meta);
         return meta;
     }
 
