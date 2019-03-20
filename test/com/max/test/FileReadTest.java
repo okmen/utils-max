@@ -6,9 +6,10 @@ import com.utils_max.file.bo.FileMetaRead;
 public class FileReadTest {
 
     public static void main(String[] arg) throws Exception {
-        String filePath = "";
+
+        String filePath = "H:\\workspace\\data\\test2.dat";
         FileMetaRead readMeta = FileReadUtils.readFile(filePath, 0, 1024);
-        print(readMeta.getDataLength());
+        print(readMeta.getData().length);
     }
 
 

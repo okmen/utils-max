@@ -15,7 +15,6 @@ public class FileWriteUtils {
     public static void writeFile(byte[] data, String fileNameFull, long offset, boolean append) throws Exception {
         FileMetaWrite writeMeta = getWriteMeta(fileNameFull, append);
         ByteBuffer byteBuffer = ByteBuffer.wrap(data);
-        byteBuffer.flip();
         long fileCurrentSize = writeMeta.getChannel().size();
         if (offset > 0 && offset < fileCurrentSize) {
             writeMeta.getChannel().write(byteBuffer, offset);
@@ -27,7 +26,6 @@ public class FileWriteUtils {
     public static void writeFileTruncate(byte[] data, String fileNameFull, long offset, boolean append) throws Exception {
         FileMetaWrite writeMeta = getWriteMeta(fileNameFull, append);
         ByteBuffer byteBuffer = ByteBuffer.wrap(data);
-        byteBuffer.flip();
         long fileCurrentSize = writeMeta.getChannel().size();
         if (offset > 0 && offset < fileCurrentSize) {
             writeMeta.getChannel().truncate(offset);
